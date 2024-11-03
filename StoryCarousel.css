@@ -1,0 +1,121 @@
+.story-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.story-carousel, 
+.story-carousel * {
+  box-sizing: border-box;
+}
+
+.story-carousel-wrap {
+  width: 340px;
+  height: 680px;
+  position: relative;
+  overflow: hidden;
+}
+
+.story-carousel-item {
+  position: absolute;
+  inset: 0;
+  transition: all ease .3s;
+  opacity: 0;
+}
+
+.story-carousel:not(.initialized) .story-carousel-item:nth-child(1),
+.story-carousel-item-active {
+  opacity: 1;
+}
+
+.story-carousel-item-image {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.story-carousel-item-desc {
+  position: absolute;
+  bottom: 0;
+  background: hsl(0deg 0% 0% / 38%);
+  color: #fff;
+  text-align: center;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  transition: all cubic-bezier(0.39, 0.41, 0, 1.02) .5s .2s;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.story-carousel-item-title {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.story-carousel-item-text {
+  margin: 0;
+  font-size: .95em;
+}
+
+.story-carousel-item-active .story-carousel-item-desc {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.story-carousel-indicators {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .25em;
+  margin: 1em;
+}
+
+.story-carousel-indicator {
+  background: #fff;
+  height: 100%;
+  flex: auto;
+  border-radius: 1em;
+}
+
+.story-carousel-indicator .story-carousel-indicator-loading  {
+  width: 0%;
+}
+
+.story-carousel-indicator-loading {
+  height: 100%;
+  width: 0%;
+  background: #fff;
+  display: block;
+  border-radius: 1em;
+  transition: all ease .0s;
+}
+
+.story-carousel-indicator-active,
+.story-carousel-indicator-active ~ .story-carousel-indicator {
+  background: rgb(255 255 255 / 37%);
+}
+
+.story-carousel-indicator-active ~ .story-carousel-indicator .story-carousel-indicator-loading {
+  width: 0%;
+}
+
+.story-carousel-indicator-active .story-carousel-indicator-loading,
+.story-carousel-indicator-active:first-child .story-carousel-indicator-loading {
+  width: 100%;
+  transition: all ease .3s;
+}
