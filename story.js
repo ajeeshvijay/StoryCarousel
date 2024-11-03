@@ -1,4 +1,4 @@
-class Story {
+class StoryCarousel {
 
     constructor(element, opts) {
         this.element = element;
