@@ -11,8 +11,6 @@
 - **Lightweight**: Minimal script size, ensuring faster load times.
 - **No Dependencies**: Built with native JavaScript—no external libraries required.
 - **Customizable**: Easily adapt styles and behavior to fit your project.
-- **Responsive**: Works seamlessly across devices.
-- **Touch-Friendly**: Optimized for swipe gestures on mobile and tablet.
 
 ## 🚀 Installation
 
