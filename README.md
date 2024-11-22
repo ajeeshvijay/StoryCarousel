@@ -9,7 +9,7 @@
 ## 🌐 Live Demo
 
 Check out the live demo here:  
-👉 [StoryCarousel GitHub Page](https://ajeeshvijay.github.io/StoryCarousel/)
+👉 [StoryCarousel GitHub Page](https://ajeeshvijay.github.io/StoryCarousel.js/)
 
 
 ## 🌟 Features
