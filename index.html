@@ -13,12 +13,53 @@
       margin: 0;
       font-family: "Roboto", sans-serif;
     }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .project-title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .version {
+      font-size: .75em;
+      text-align: right;
+    }
+
+    .fork {
+      font-size: .75em;
+    }
+
+    .fork a {
+      color: #fff;
+    }
+
+    .story-carousel {
+      height: calc(100vh - 60px);
+    }
   </style>
 </head>
 
 <body>
+
+  <div class="project-header">
+    <div class="project-title">StoryCarousel.js</div>
+    <div class="version">Version 1.0.1
+      <div class="fork">
+        <a href="https://github.com/ajeeshvijay/StoryCarousel">Fork on Github</a>
+      </div>
+    </div>
+  </div>
+
   <div id="storyCarousel" class="story-carousel">
-    
+
     <div class="story-carousel-items">
       <div class="story-carousel-item">
         <img class="story-carousel-item-image" src="./images/leafy-greens.jpg" />
