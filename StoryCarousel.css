@@ -102,7 +102,7 @@
   background: #fff;
   display: block;
   border-radius: 1em;
-  transition: all ease .0s;
+  transition: all linear .0s;
 }
 
 .story-carousel-indicator-active,
@@ -117,5 +117,5 @@
 .story-carousel-indicator-active .story-carousel-indicator-loading,
 .story-carousel-indicator-active:first-child .story-carousel-indicator-loading {
   width: 100%;
-  transition: all ease .3s;
+  transition: all linear .3s;
 }
