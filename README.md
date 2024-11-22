@@ -2,7 +2,7 @@
   <img src="StoryCarousel.js-icon.png" alt="StoryCarousel Icon" width="180">
 </p>
 
-# StoryCarousel 📖🎠
+# StoryCarousel 📖
 
 **StoryCarousel** is a lightweight and flexible interface element designed to display multiple stories or content pieces in a rotating or swipeable format. It enables users to navigate through various items sequentially, offering a smooth and engaging browsing experience.
 
