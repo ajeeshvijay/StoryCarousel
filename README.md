@@ -6,19 +6,19 @@
 
 **StoryCarousel** is a lightweight and flexible interface element designed to display multiple stories or content pieces in a rotating or swipeable format. It enables users to navigate through various items sequentially, offering a smooth and engaging browsing experience.
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live demo here:  
 👉 [StoryCarousel GitHub Page](https://ajeeshvijay.github.io/StoryCarousel.js/)
 
 
-## 🌟 Features
+## Features
 
 - **Lightweight**: Minimal script size, ensuring faster load times.
 - **No Dependencies**: Built with native JavaScript—no external libraries required.
 - **Customizable**: Easily adapt styles and behavior to fit your project.
 
-## 🚀 Installation
+## Installation
 
 1. Download or clone this repository:
    ```bash
@@ -48,7 +48,7 @@ Check out the live demo here:
 	</div>
 	```
 
-## 🛠️ Usage
+## Usage
 Initialize the carousel using:
    ```javascript
    const storyCarousel = new StoryCarousel(document.getElementById('storyCarousel'), {
@@ -58,11 +58,11 @@ Initialize the carousel using:
     });
   ```
 
-## 🎨 Customization
+## Customization
 Modify the styles in StoryCarousel.css to match your design needs.
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
 
-## 📜 License
+## License
 This project is licensed under the [Apache-2.0 license](LICENSE).
